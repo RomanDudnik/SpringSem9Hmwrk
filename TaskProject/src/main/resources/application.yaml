@@ -1,0 +1,7 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: tasks-service
+  jpa:
+    open-in-view: true

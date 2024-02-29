@@ -1,0 +1,14 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: api-gateway
+routes:
+  - id: notes-service
+    uri: http://localhost:8080/
+    predicates:
+      - Path=/notes/**
+  - id: task-service
+    uri: http://localhost:8081/
+    predicates:
+      - Path=/tasks/**

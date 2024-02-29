@@ -1,0 +1,5 @@
+# Project exclude paths
+/ApiGateAway/target/
+/EurekaServer/target/
+/NotesProject/target/
+/TaskProject/target/
